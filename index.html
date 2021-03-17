@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link href="data:image/vnd.microsoft.icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAACXBIWXMAAAsSAAALEgHS3X78AAAD8klEQVRIid1WbUhTYRQ+UPaBP3JpqWWZuRUFFX0QY2XWykZR+aNaggQhVn9KonJ9QJH+sIyFfenSKNeMdMMVfVjOjMpwRqVstJUYpRRLi4U2x+a92906997tNtt0W9CfDoeXs/c9533Oed7zvrvg/ccC/xeAh6Ioh8NDkmgM8/J4PC4XMThIOUm0/x4gEsHtPQQRPYA/r9a8/XcXi7T8RXVTZ6tip6pieKrx8bVJ6Q3L17zcV/ijs9PnTkVahw/AzSTVuvvAaYDrEFMNE6shtmZsHKtoVwEoAC4BaAWLSaeTwaBG2zhkBQ9WrLsKoEmeUxufeisuJVDVCbNqUXkpVwAqAMiBgQgx/BUwALr12Zipekoa7qVO5ms4TeKr/apNW1CJSUyfG5hZpBU0MgCYPqZ5HqAsSC/SBE6oS0xHrr63vaLjSDJqgGsArXv3DX752m809Zs7+83vcbQaTQMfPlk7DHXTBDUxPAR4ffAohlBRAeg2bi0HqJ+9cJSAH286kCLUZ9t2MhWEOYY/AS4A3FuaGehBOZ0eVJeLstvxp0XXzAK82LXHGy1FOh9FY/pedgS7Ui4Xjq8OHWUbyXDmvDdaitgzqIlNxASxI9XxqddhTPMmKbPu65a6hNRqGI+n7ejr80bQqSEA6DblzVBC3M0JCXiYdwRL6EwddKbfWvTlzI1rWCUJDIwa4Nak6dis6sT0ywBWw1uOn8YMyRkAVWySPyj8gzEiAF5dtOtnzvcyDxyK7fOXE9gCi0SR7x4GAPn5qL1PrzJEux3E1+ctnD/1F2/R7zOIT8EH7sa4yezi0NBQb28vF0P6O8dms/X09HDzbE1/VBYaQJ2Uhn1iOH2OXeQL+IWFhSuEwj6LhYtsamrKy8vLz8/X6XSVleVWqzV49xEAkgU3x/KwU9kVgiRytuegoVKp5HI5Gk+ePMMRt1Yqlb6amBZgScOywgBoZszDe6Tfc4BzEolE7e3tUqlUr9cXFxefKjpVUlKC80KhMCsrCw2ZTKa8piw9W4q2OFMcAsAd9JqSTjvnJBaLGx81ooEAO6Q7urq6ik4WsUsajaagoEChUFQoqq4qqnAmQ5QReCTDK1i9Ef/LkJyHWZvpkt1uHO12+8qVmaxXd3e3RCIxGAwWi6VMXtbwsAG3lpcic/K2trbc3Fyt9jYWGngYPgAPQdP3eMO2YuafwGH5xk2itDxt4Sg2Go1HDh8xmU3YWsePn6yoKMfJ7OxsHM1ms0x2LDD9AAAm2PXT1rR2S/+7LnrGG6LNQ14uk8kkXCYMnh8GMLq4Ga5YwToIgsARwQjmUwEb1Ml8BpCMjHAP2ARJCr+uwj7xUcl/9m36L+QXg6Aa7yjy6yAAAAAASUVORK5CYII=" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
-	<title><?= htmlentities($title) ?></title>
+		<title>Last ned P7 appen</title>
 
-	<link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-	<div class="container">
-		<h1>Last ned P7 Appen</h1>
-		<a href="store-redirect.php">
-			<span>Last ned appen</span>
-		</a>
-	</div>
-    </body>
+		<link rel="stylesheet" href="styles.css" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Last ned P7 Appen</h1>
+
+			<a id="ios-link" href="https://apps.apple.com/app/id1500329688">
+				<img alt="Last ned fra iTunes" src="appstore.svg" width="120" height="40">
+			</a>
+			<a id="android-link" href="https://apps.apple.com/app/id1500329688">
+				<img alt="Last ned fra Google Play" src="playstore.svg" width="207" height="80">
+			</a>
+			<a id="web-link" href="https://p7.no/">
+				Har ikke Android eller iPhone? Trykk her for å gå til våre nettsider
+			</a>
+		</div>
+		<script>
+			if(/i(pod|phone|pad)/i.test(navigator.userAgent)) {
+				document.getElementById('ios-link').click();
+			} else if(/android/i.test(navigator.userAgent)) {
+				document.getElementById('android-link').click();
+			}
+		</script>
+	</body>
 </html>
