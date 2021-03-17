@@ -5,20 +5,20 @@
             "sources": [
                 {
                     "title": "P7 Kristen Riksradio",
-                    "icon": "https://p7app.hjort.land/appen/ios_app/images/p7.png",
-                    "source": "http://radio.p7.no:8020/kristen_riksradio_web",
+                    "icon": "https://app.p7.no/images/p7.png",
+                    "source": "https://radio.p7.no/radio/8020/kristen_riksradio_web",
                     "type": "media"
                 },
                 {
                     "title": "Evangeliske sanger",
-                    "icon": "https://p7app.hjort.land/appen/ios_app/images/p7.png",
-                    "source": "http://radio.p7.no:8010/evangeliske_sanger_web",
+                    "icon": "https://app.p7.no/images/p7.png",
+                    "source": "https://radio.p7.no/radio/8010/evangeliske_sanger_web",
                     "type": "media"
                 },
                 {
                     "title": "Kristen pop",
-                    "icon": "https://p7app.hjort.land/appen/ios_app/images/p7.png",
-                    "source": "http://radio.p7.no:8000/kristen_pop_web",
+                    "icon": "https://app.p7.no/images/p7.png",
+                    "source": "https://radio.p7.no/radio/8000/kristen_pop_web",
                     "type": "media"
                 }
             ]
@@ -61,14 +61,14 @@
             "sources": [
                 {
                     "title": "TV-serier",
-                    "icon": "https://p7app.hjort.land/appen/ios_app/images/p7.png",
+                    "icon": "https://app.p7.no/images/p7.png",
                     "source": "https://tv.p7.no/",
                     "type": "link"
                 },
                 {
                     "title": "P7 på YouTube",
-                    "icon": "https://p7app.hjort.land/appen/ios_app/images/youtube.png",
-                    "source": "https://www.youtube.com/channel/UC-cBtbLFhK4clxQbm3sK4-A/live",
+                    "icon": "https://app.p7.no/images/youtube.png",
+                    "source": "https://www.youtube.com/channel/UC-cBtbLFhK4clxQbm3sK4-A",
                     "type": "link"
                 }
             ]
@@ -78,13 +78,13 @@
 			"sources": [
 				{
 					"title": "Gi din gave",
-					"icon": "https://p7app.hjort.land/appen/ios_app/images/gift.png",
+					"icon": "https://app.p7.no/images/gift.png",
 					"source": "https://pesju.xledger.me/donations/new",
                     "type": "link"
 				},
 				{
 					"title": "Kontakt oss",
-					"icon": "https://p7app.hjort.land/appen/ios_app/images/phone.png",
+					"icon": "https://app.p7.no/images/phone.png",
 					"source": "https://p7.no/om-oss",
                     "type": "link"
 				}
@@ -97,7 +97,7 @@
         {
             "title": "Hjemmeside",
             "subtitle": "Gå til hjemmesiden vår",
-            "icon": "https://p7app.hjort.land/appen/ios_app/images/p7.png",
+            "icon": "https://app.p7.no/images/p7.png",
             "link": "https://p7.no/",
             "external": true,
             "cacheable": false
@@ -105,21 +105,21 @@
         {
             "title": "Facebook",
             "link": "https://facebook.com/pesju/",
-            "icon": "https://p7app.hjort.land/appen/ios_app/images/facebook.png",
+            "icon": "https://app.p7.no/images/facebook.png",
             "external": true,
             "cacheable": false
         },
         {
             "title": "Gi din gave til P7",
             "subtitle": "Gå til hjemmesiden vår",
-            "icon": "https://p7app.hjort.land/appen/ios_app/images/gift.png",
+            "icon": "https://app.p7.no/images/gift.png",
             "link": "https://pesju.xledger.me/donations/new",
             "external": false,
             "cacheable": false
         },
         {
             "title": "Kontakt oss",
-            "icon": "https://p7app.hjort.land/appen/ios_app/images/phone.png",
+            "icon": "https://app.p7.no/images/phone.png",
             "link": "https://p7.no/om-oss?tmpl=component",
             "external": false,
             "cacheable": true
