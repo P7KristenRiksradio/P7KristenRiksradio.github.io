@@ -102,14 +102,6 @@
             "cacheable": false
         },
         {
-            "title": "Gi din gave til P7",
-            "subtitle": "Gå til hjemmesiden vår",
-            "icon": "https://app.p7.no/images/gift.png",
-            "link": "https://pesju.xledger.me/donations/new",
-            "external": false,
-            "cacheable": false
-        },
-        {
             "title": "Kontakt oss",
             "icon": "https://app.p7.no/images/phone.png",
             "link": "https://www.p7.no/kontakt",
