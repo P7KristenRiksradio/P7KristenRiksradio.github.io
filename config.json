@@ -112,7 +112,7 @@
         {
             "title": "Kontakt oss",
             "icon": "https://app.p7.no/images/phone.png",
-            "link": "https://p7.no/om-oss?tmpl=component",
+            "link": "https://www.p7.no/kontakt",
             "external": false,
             "cacheable": true
         }
