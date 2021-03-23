@@ -27,31 +27,23 @@
             "title": "Programserier",
             "sources": [
                 {
-                    "source": "https://p7app.hjort.land/podcast/p7_mobil_fil_vml_jh.xml",
+                    "source": "https://anchor.fm/s/525fd460/podcast/rss",
                     "type": "rss"
                 },
                 {
-                    "source": "https://p7app.hjort.land/podcast/p7_mobil_fil_vgb.xml",
+                    "source": "https://anchor.fm/s/5252d440/podcast/rss",
                     "type": "rss"
                 },
                 {
-                    "source": "https://p7app.hjort.land/podcast/p7_mobil_fil_nis.xml",
+                    "source": "https://anchor.fm/s/1483d5ec/podcast/rss",
                     "type": "rss"
                 },
                 {
-                    "source": "https://p7app.hjort.land/podcast/p7_mobil_fil_kvt.xml",
+                    "source": "https://anchor.fm/s/5268b634/podcast/rss",
                     "type": "rss"
                 },
                 {
-                    "source": "https://p7app.hjort.land/podcast/p7_mobil_fil_sag.xml",
-                    "type": "rss"
-                },
-                {
-                    "source": "https://p7app.hjort.land/podcast/p7_mobil_fil_vml_ob.xml",
-                    "type": "rss"
-                },
-                {
-                    "source": "https://p7app.hjort.land/podcast/p7_mobil_fil_nis.xml",
+                    "source": "https://anchor.fm/s/5267f8c0/podcast/rss",
                     "type": "rss"
                 }
             ]
