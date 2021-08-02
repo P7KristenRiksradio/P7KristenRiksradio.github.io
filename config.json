@@ -39,10 +39,6 @@
                     "type": "rss"
                 },
                 {
-                    "source": "https://anchor.fm/s/5268b634/podcast/rss",
-                    "type": "rss"
-                },
-                {
                     "source": "https://anchor.fm/s/5267f8c0/podcast/rss",
                     "type": "rss"
                 }
