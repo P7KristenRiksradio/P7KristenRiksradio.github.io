@@ -67,8 +67,8 @@
 				{
 					"title": "Gi din gave",
 					"icon": "https://app.p7.no/images/gift.png",
-					"source": "https://pesju.xledger.me/donations/new",
-                    "type": "link"
+					"source": "https://www.p7.no/gi-til-p7",
+                    "type": "link
 				},
 				{
 					"title": "Kontakt oss",
